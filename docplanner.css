@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* introduction CSS */
+.introdution {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 2% 10%;
+}
+.introdution div {
+  display: flex;
+}
+.introdution h1 {
+  margin: 5%;
+  color: #00b39b;
+  font-size: 2.125rem;
+}
+.introdution div p {
+  line-height: 1.5;
+  width: 41%;
+  color: gray;
+  padding: 2%;
+}
+/* CSS contries part */
+/*.contries {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+  justify-content: space-between;
+  
+}
+.contry {
+  margin-bottom: 2%;
+  border: gray 2px solid;
+  border-radius: 6px;
+}
+.contry div {
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+}
+.contry:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}*/
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+  justify-content: space-between;
+}
+.country {
+  margin-bottom: 2%;
+  border: gray 2px solid;
+  border-radius: 6px;
+}
+.country div {
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+}
+.country:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+.country p {    line-height: 1.6666666667;     font-size: 1.125em;}
+.logoo {
+  width: 250px;
+}
+.about-us{color: #00b39b}
+.links {
+  padding-right: 30px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+.doc {
+  float: left;
+  padding-left: 2%;
+  width: 400px;
+}
+header {
+  overflow: hidden;
+}
+.links a {
+  margin-left: 30px;
+  padding: 8px;
+  text-decoration :none ;
+  line-height: 2em ;
+}
+.links a:hover {
+  background: #00b39b;
+}
+.doctors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.doctor1 {
+  background: #00ccb1;
+  border-radius: 10px;
+  margin-left: 130px;
+  padding: 30px;
+  width: 420px;
+  overflow: hidden;
+}
+.img1 {
+  width: 220px;
+  float: right;
+  margin-top: 20px;
+  margin-right: -80px;
+}
+.doctor2 {
+  background: #3d83df;
+  border-radius: 10px;
+  margin-right: 130px;
+  padding: 30px;
+  width: 420px;
+  overflow: hidden;
+}
+.text {
+  color: white;
+  font-size: 1.625em;
+  margin-top: 0.3em;
+}
+.doctor-title {
+  font-size: 0.875em;
+  font-weight: 400;
+  margin: 0;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+#country {
+  width: 18%;
+  background: white;
+  border: 0;
+  border-radius: 0;
+  padding: 1.5em 5em 2.2em 2em;
+  height: 40px;
+  text-transform: uppercase;
+}
+.company {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8%;
+}
+.global {
+  float: left;
+  width: 33%;
+  font-size: 2em;
+  margin: 0.25em 0 0.5em;
+  padding: 2%;
+  color: #00b39b;
+}
+.brand {
+  display: flex;
+  padding: 0px 20px 0px 20px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  widows: 20px;
+
+}
+.brand li{width : 180px ;
+}
+.brand li a svg:hover{ fill: #bdf5ef ;}
+.culture1 {
+  width: 150px;
+  height: 32px;
+}
+.culture2 {
+  width: 150px;
+  height: 32px;
+}
+.culture3 {
+  width: 150px;
+  height: 32px;
+}
+.culture4 {
+  width: 150px;
+  height: 32px;
+}
+.culture5 {
+  width: 150px;
+  height: 32px;
+}
+.lives {
+  color: #00b39b;
+  text-align: center;
+}
+.lives-1 {
+  text-align: center;
+  padding: 2%;
+  line-height: 1.5;
+}
+.brand button:hover {
+  background: #00ccb1;
+}
+.stat {
+  display: flex; background: #bdf5ef; position: relative;
+}
+ .stat2  {
+  display: flex;
+  width: 400px;
+
+ justify-content: space-between; 
+ padding: 20px;
+
+} 
+.bloc1{
+transform: translateY(30px);
+
+}
+
+.card{
+  width:250px;
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+  height: 200px;
+
+}
+
+
+.platform{color: #00b39b;font-size: 2.125rem; }
+.platform1{margin:1em;line-height: 1.7142857143;}
+.footer{text-align: center;font-size: 0.8em; color: #ababab;}
+
